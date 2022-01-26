@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Outfit', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,4 +13,49 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 25rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.qr-code img{
+    width: 22rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main-headline {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.description {
+    text-align: center;
+    color: #7D889E;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+
+.attribution {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.attribution a {
+    color: black;
 }
